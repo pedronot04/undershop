@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Aircraft - UnderShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/U.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>UnderShop Marketplace</h1>
+            <nav>
+                <a href="index.html">All Aircraft</a>
+                <a href="military.html">Military</a>
+                <a href="commercial.html">Commercial</a>
+                <a href="civilian.html">Civilian</a>
+                <a href="cargo.html">Cargo</a>
+                <a href="boats.html">Boats</a>
+                <a href="special.html">Special Aircrafts</a>
+                <a href="search.html">Search</a>
+            </nav>
+        </div>
+    </header>
+    <section class="search-section">
+        <div class="container">
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." class="search-bar" />
+                <button type="submit" class="search-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+            
+            <!-- Search Results Grid -->
+            <div id="searchResults" class="grid-container">
+                <!-- Dynamically populated search results will be added here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 UnderShop. All rights reserved.</p>
+            <!-- Profile Link in Footer -->
+            <a href="https://discord.com/users/870065855134834799" class="profile-link" target="_blank">My Profile</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
