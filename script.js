@@ -5,7 +5,7 @@ const aircraftData = [
         name: 'Boeing AH-64', 
         description: 'Attack Helicopter built by Boeing.', 
         image: 'assets/APACHE.png', 
-        price: 20000,
+        price: 19000,
         onSale: true
     },
     { 
@@ -14,8 +14,8 @@ const aircraftData = [
         name: 'Airbus A321neo', 
         description: 'Good airliner for medium range jobs.', 
         image: 'assets/A321NEO.png', 
-        price: 25000,
-        onSale: true
+        price: 24000,
+        onSale: false
     },
     { 
         id: 2, 
@@ -23,7 +23,7 @@ const aircraftData = [
         name: 'Embraer E-190', 
         description: 'Description of Commercial Aircraft 1', 
         image: 'assets/E190.png', 
-        price: 20000,
+        price: 23000,
         onSale: true
     },
     { 
@@ -32,16 +32,16 @@ const aircraftData = [
         name: 'Boom Overture', 
         description: 'Medium-Price SST.', 
         image: 'assets/BOOM.png', 
-        price: 90000,
-        onSale: false
+        price: 95000,
+        onSale: true
     },
     { 
         id: 4, 
-        category: 'private', 
+        category: 'commercial', 
         name: 'Bombardier Global 7500', 
         description: 'Small business jet for long-range trips.', 
         image: 'assets/7500.png', 
-        price: 21000,
+        price: 19000,
         onSale: true
     },
     { 
@@ -50,8 +50,8 @@ const aircraftData = [
         name: 'Tupolev Tu-144', 
         description: 'Fuel eater.', 
         image: 'assets/TU144.png', 
-        price: 120000,
-        onSale: false
+        price: 115000,
+        onSale: true
     },
     { 
         id: 6, 
@@ -59,7 +59,7 @@ const aircraftData = [
         name: 'Antonov AN-74', 
         description: 'STOL aircraft for cargo.', 
         image: 'assets/AN-74.png', 
-        price: 28000,
+        price: 22000,
         onSale: true
     },
     { 
@@ -68,7 +68,7 @@ const aircraftData = [
         name: 'LK-60a', 
         description: 'Call me Project 22220.', 
         image: 'assets/LK-60YA.png', 
-        price: 700000,
+        price: 800000,
         onSale: true
     },
     { 
@@ -78,7 +78,7 @@ const aircraftData = [
         description: 'ACE COMBAT REFERENCE ?!?!?!/??.', 
         image: 'assets/ADF340.png', 
         price: 2500000,
-        onSale: true
+        onSale: false
     },
     { 
         id: 9, 
@@ -86,8 +86,8 @@ const aircraftData = [
         name: 'Yakovlev Yak-38U', 
         description: 'Soviet VTOL plane.', 
         image: 'assets/YAK-38U.png', 
-        price: 34000,
-        onSale: true
+        price: 32000,
+        onSale: false
     },
     { 
         id: 10, 
@@ -95,8 +95,8 @@ const aircraftData = [
         name: 'Sikorsky UH-60', 
         description: 'That one american heli.', 
         image: 'assets/UH-60.png', 
-        price: 15000,
-        onSale: false
+        price: 19000,
+        onSale: true
     },
     { 
         id: 11, 
@@ -104,7 +104,7 @@ const aircraftData = [
         name: 'Sikorsky SH-60', 
         description: 'Anti-Sub american heli.', 
         image: 'assets/SH-60.png', 
-        price: 13000,
+        price: 22000,
         onSale: false
     },
     { 
@@ -113,8 +113,8 @@ const aircraftData = [
         name: 'SAAB 2000', 
         description: 'This plane is cool.', 
         image: 'assets/SAAB2000.png', 
-        price: 20000,
-        onSale: false
+        price: 18000,
+        onSale: true
     },
     { 
         id: 13, 
@@ -122,7 +122,7 @@ const aircraftData = [
         name: 'Convair XB-46', 
         description: 'Ugly bomber.', 
         image: 'assets/XB-46.png', 
-        price: 14000,
+        price: 19000,
         onSale: false
     },
     { 
@@ -131,8 +131,8 @@ const aircraftData = [
         name: 'Lun-class Ekranoplan', 
         description: 'This plane is not ugly.', 
         image: 'assets/LUN.png', 
-        price: 100000,
-        onSale: false
+        price: 120000,
+        onSale: true
     },
     { 
         id: 15, 
@@ -141,7 +141,7 @@ const aircraftData = [
         description: 'Look = 10/10, Utility = 0/10', 
         image: 'assets/L410.png', 
         price: 7000,
-        onSale: false
+        onSale: true
     },
     { 
         id: 16, 
@@ -149,7 +149,7 @@ const aircraftData = [
         name: 'Extra EA-330', 
         description: '... i like OrangeTimeExpress.', 
         image: 'assets/EA330.png', 
-        price: 2000,
+        price: 3500,
         onSale: false
     },
     { 
@@ -158,8 +158,8 @@ const aircraftData = [
         name: 'Rutan Long EZ', 
         description: 'Long... EZ ?', 
         image: 'assets/RUTEZ.png', 
-        price: 2000,
-        onSale: true
+        price: 2500,
+        onSale: false
     },
     { 
         id: 18, 
@@ -168,7 +168,7 @@ const aircraftData = [
         description: 'Quickie? Who is naming those Rutan planes?', 
         image: 'assets/RUTQ2.png', 
         price: 3000,
-        onSale: true
+        onSale: false
     },
     { 
         id: 19, 
@@ -176,8 +176,8 @@ const aircraftData = [
         name: 'Sukhoi SU-24', 
         description: 'F-111 BLYAT Edition.', 
         image: 'assets/SU24.png', 
-        price: 30000,
-        onSale: true
+        price: 38000,
+        onSale: false
     },
     { 
         id: 20, 
@@ -185,8 +185,8 @@ const aircraftData = [
         name: 'Northrop Tacit Blue', 
         description: 'What.', 
         image: 'assets/TACITBLUE.png', 
-        price: 15000,
-        onSale: false
+        price: 25000,
+        onSale: true
     },
     { 
         id: 21, 
@@ -194,8 +194,8 @@ const aircraftData = [
         name: 'Eurofighter Typhoon', 
         description: 'Gripen is more cooler.', 
         image: 'assets/TYPH.png', 
-        price: 26000,
-        onSale: true
+        price: 29000,
+        onSale: false
     },
     { 
         id: 22, 
@@ -203,7 +203,7 @@ const aircraftData = [
         name: 'Chengdu J-20', 
         description: 'F-22 made in china.', 
         image: 'assets/J20.png', 
-        price: 40000,
+        price: 56000,
         onSale: false
     },
     { 
@@ -212,7 +212,7 @@ const aircraftData = [
         name: 'Focke-Wulf FW 200 Condor', 
         description: 'Guess who flew in this guy?', 
         image: 'assets/CONDOR200.png', 
-        price: 25000,
+        price: 22500,
         onSale: false
     },
     { 
@@ -221,8 +221,8 @@ const aircraftData = [
         name: 'Focke-Wulf TA-152', 
         description: 'Rare?', 
         image: 'assets/TA-152.png', 
-        price: 15000,
-        onSale: false
+        price: 19000,
+        onSale: true
     },
     { 
         id: 25, 
@@ -230,8 +230,8 @@ const aircraftData = [
         name: 'McDonnell Douglas F-15C', 
         description: 'FREEEEEEEEEEEEEEEEEDOM!!!!', 
         image: 'assets/F-15C.png', 
-        price: 25000,
-        onSale: false
+        price: 27000,
+        onSale: true
     },
     { 
         id: 26, 
@@ -239,8 +239,8 @@ const aircraftData = [
         name: 'BAC 1-11-200', 
         description: 'BAAAK ONE-ELEVON', 
         image: 'assets/bac1-11.png', 
-        price: 11000,
-        onSale: true
+        price: 19000,
+        onSale: false
     },
     {
         id: 27,
@@ -249,7 +249,7 @@ const aircraftData = [
         description: 'Sonic Boom Jet?',
         image: 'assets/AESBJ.png',
         price: 90000,
-        onSale: true
+        onSale: false
     },
     {
         id: 28,
@@ -266,9 +266,63 @@ const aircraftData = [
         name: 'Cessna 337',
         description: 'double the noise.',
         image: 'assets/337.png',
-        price: 4000,
+        price: 3800,
         onSale: true
-    }
+    },
+    { 
+        id: 30, 
+        category: 'military', 
+        name: 'Sukhoi SU-34', 
+        description: 'Su-33 got a bit smashed.', 
+        image: 'assets/SU34.png', 
+        price: 44000,
+        onSale: true
+    },
+    { 
+        id: 31, 
+        category: 'military', 
+        name: 'Sukhoi SU-33', 
+        description: 'This was one of the best planes in AC7.', 
+        image: 'assets/SU33.png', 
+        price: 40000,
+        onSale: false
+    },
+    { 
+        id: 32, 
+        category: 'military', 
+        name: 'SAAB JAS-39E', 
+        description: 'Cooler than Eurofighter Typhoon.', 
+        image: 'assets/JAS39.png', 
+        price: 29000,
+        onSale: false
+    },
+    { 
+        id: 33, 
+        category: 'military', 
+        name: 'Lockheed F-117', 
+        description: 'You can´t see me.', 
+        image: 'assets/F117.png', 
+        price: 27000,
+        onSale: false
+    },
+    { 
+        id: 33, 
+        category: 'military', 
+        name: 'General Dynamics F-16C', 
+        description: 'FREEEEEEEEEEEEEEEEEDOM!!!! PT2.', 
+        image: 'assets/F16.png', 
+        price: 23000,
+        onSale: true
+    },
+    { 
+        id: 33, 
+        category: 'military', 
+        name: 'Douglas X-3', 
+        description: 'Stiletto', 
+        image: 'assets/X3.png', 
+        price: 3000,
+        onSale: true
+    },
 ];
 
 // Function to format price with thousand separators
@@ -284,7 +338,7 @@ function createCard(vehicle) {
     // Check if the product is on sale
     const priceHTML = vehicle.onSale ? `
         <h4 class="original-price"><del>${formatPrice(vehicle.price)} WP</del></h4>
-        <h4 class="sale-price"><strong>${formatPrice(vehicle.price * 0.88)} WP</strong></h4>
+        <h4 class="sale-price"><strong>${formatPrice(vehicle.price * 0.9)} WP</strong></h4>
     ` : `
         <h4><strong>${formatPrice(vehicle.price)} WP</strong></h4>
     `;
@@ -294,7 +348,10 @@ function createCard(vehicle) {
         <h3>${vehicle.name}</h3>
         <p>${vehicle.description}</p>
         ${priceHTML}
-        <a href="https://discord.com/users/870065855134834799?id=${vehicle.id}" class="btn send-btn">I WANT</a>
+        <a href="https://discord.com/users/870065855134834799" class="btn send-btn" target="_blank" rel="noopener noreferrer">
+        I WANT IT!
+</a>
+
     `;
     
     return card;
