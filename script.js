@@ -294,7 +294,7 @@ function createCard(vehicle) {
         <h3>${vehicle.name}</h3>
         <p>${vehicle.description}</p>
         ${priceHTML}
-        <a href="product-detail.html?id=${vehicle.id}" class="btn send-btn">I WANT</a>
+        <a href="https://discord.com/users/870065855134834799?id=${vehicle.id}" class="btn send-btn">I WANT</a>
     `;
     
     return card;
