@@ -77,7 +77,7 @@ const aircraftData = [
         name: 'ADF-340 Relay', 
         description: 'ACE COMBAT REFERENCE ?!?!?!/??.', 
         image: 'assets/ADF340.png', 
-        price: 2100000,
+        price: 2500000,
         onSale: true
     },
     { 
